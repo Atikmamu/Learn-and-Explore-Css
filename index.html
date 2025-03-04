@@ -4,6 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn and explore CSS</title>
+
+    <!-- External Style CSS -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- Internal Style CSS -->
+    <style>
+      #short {
+        color: rgba(76, 0, 130, 0.55);
+        text-align: center;
+      }
+      h3 {
+        color: aqua;
+      }
+      p {
+        color: green;
+        background-color: darkkhaki;
+        width: 50%;
+      }
+      li {
+        color: rgba(238, 130, 238, 0.875);
+      }
+      #embadded {
+        font-size: larger;
+        font-weight: bolder;
+      }
+      .player {
+        text-align: right;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h3>Learning Basic CSS</h3>
+
+    <div>
+      <h1 id="external">External CSS</h1>
+      <p id="style">style.css</p>
+    </div>
+
+    <span class="span-tag"> valobashi </span>
+    <br />
+    <br />
+
+    <!-- Inline Style CSS -->
+    <span style="color: blue">ami tomake valobashi</span>
+    <br />
+    <br />
+    <h4>Learning Basic CSS</h4>
+    <h5>CSS meaning: Cascading style sheet</h5>
+    <br />
+    <br />
+    <h2 style="color: blueviolet">different types of CSS</h2>
+    <ul>
+      <li>Inline CSS</li>
+      <li id="embadded">Internal or Embedded CSS</li>
+      <li>External CSS</li>
+    </ul>
+    <p>This is a stand alone paragraph</p>
+
+    <br />
+    <br />
+    <p>CSS meaning: Cascading style sheet</p>
+    <p id="short">style is colorful</p>
+    <p class="player">short form is CSS</p>
+    <p class="player">Needs style rule and value separated by colon(:)</p>
+    <p class="player">after each styles you need to use semi-colon(;)</p>
+    <p class="player">Crick fan</p>
+  </body>
 </html>
